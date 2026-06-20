@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nmap-dashboard-container
+    volumes:
+      - ./:/app
+    working_dir: /app
+    ports:
+      - "5000:5000"
+    command: python3 /app/app.py /app/scan202501006.xml

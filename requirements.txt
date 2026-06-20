@@ -1,0 +1,6 @@
+argparse
+flask
+pymysql
+numpy
+lxml
+cryptography
