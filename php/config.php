@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
-$user = "gleytton.figueiredo";
-$senha = "$123Mudar";
-$db = "iwdbd";
+$host = '***';
+$user = "***";
+$senha = "***";
+$db = "***";
 $caminho = "mysql:dbname=$db;host=$host"; 
 
 try{
