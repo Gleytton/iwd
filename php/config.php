@@ -1,9 +1,9 @@
 <?php
 
-$host = '147.65.190.60';
-$user = "daniel.teixeira";
-$senha = "123mudar";
-$db = "nmapdbtest";
+$host = 'localhost';
+$user = "gleytton.figueiredo";
+$senha = "$123Mudar";
+$db = "iwdbd";
 $caminho = "mysql:dbname=$db;host=$host"; 
 
 try{
